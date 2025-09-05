@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Protfolio
+        </title>
+        <style>
+            
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+
+            /* Header Section Style */
+            header {
+                background:palegreen;
+                padding: 20px 25px;
+                top:0; 
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                color:purple;
+                position: sticky;
+            } 
+
+            .logo{
+                font-size: 20px;
+                font-weight: bold;
+                font-family: "Brush Script MT", cursive;
+            }
+
+            .container {
+                background:whitesmoke; 
+                height: 100vh; 
+                width: 100vw; 
+            }
+              
+            nav a {
+                text-decoration: none;
+                margin: 0 6px;
+                color: #9a0579;
+                font-size: large;
+                font-weight: bold;
+                padding: 18px 16px;
+ 
+            }
+            
+            nav a:hover {
+                background-color: rgb(125, 216, 125);
+            }
+            
+            .btn {
+                padding: 8px 2rem 12px 2rem; 
+                border: none;
+                border-radius: 0.5rem; 
+                background-color: #9a0579; 
+                color: white;
+                font-weight: 500;
+                font-size: 1rem;
+                text-align: center;
+                box-shadow: inset 0px -4px 0px 0px #d321a6;
+                transition: box-shadow 300ms ease;
+                }
+
+            .btn:hover {
+                box-shadow: inset #bf4889; 
+            }
+
+            .btn:active {
+                box-shadow: inset  #bf4889;
+                outline: 4px solid #9c4374; 
+            }
+
+            /* Body Section Style */
+
+            /* Center full Form */
+            .form {
+                text-align: center;
+                padding: 5% 0%;
+            }
+
+            .form-title {
+                margin-bottom: 25px;
+                font-family: 'Abril Fatface', serif;
+                font-size: 32px;
+                color: darkgreen;
+            }
+
+            
+            .form-items {
+                max-width: 600px;
+                margin: auto;
+                padding: 25px;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            }
+
+            .form-info {
+                margin-bottom: 15px;
+                text-align: left;
+            }
+
+            .form-info label {
+                display: block;
+                margin-bottom: 6px;
+                font-weight: 700;
+                color: #333;
+            }
+
+            .form-info input,.form-info textarea {
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #c5c4c4;
+                border-radius: 8px;   
+            }
+
+            .form-btn {
+                text-align: center;
+                margin-top: 10px;
+            }
+
+            .form-btn input {
+                padding: 12px 25px;
+                border: none;
+                border-radius: 8px;
+                background: rgb(176, 83, 176);
+                color: white;
+                font-size: 16px;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+
+            .form-btn input:hover{
+                background: #e0b3e0;
+                color: rgb(176, 83, 176);
+            }
+            
+            .social-links {
+               
+                margin-top: 25px;
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+                flex-wrap: wrap;
+            }
+
+            .social-links a{
+                text-decoration: none;
+                background: #f2f2f2;
+                padding: 10px 15px;
+                border-radius: 8px;
+                color: darkgreen;
+                font-weight: bold;
+                transition: 0.3s;
+            }
+
+            .social-links a:hover {
+                background: #006400;
+                color: #f2f2f2;
+            }
+
+            /* Footer Section Style */
+            footer {
+                padding: 10px 2%;
+                background: palegreen; 
+                bottom: 0;
+                width: 100%;
+                position:sticky;
+            }
+            
+            .foot-design {
+                text-align: center;
+                padding: 1%;
+                display: flex;
+                justify-content: space-between; 
+                color: #9a0579; 
+            }
+             
+        </style>
+    </head>
+
+    <body>
+        <section class="container">
+
+        <!--Header Section-->
+            <header>
+                <div class="logo"><h2>Payel</h2></div>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="skills.html">Skills</a>
+                </nav>
+                    <a href="contact.html"><button class="btn">Contact</button></a>
+            </header>
+
+        <!--Body Section-->    
+            <div class="form">
+                <h2 class="form-title">Let's Chat 💬</h2>
+                <form>
+                    <div class="form-items">
+                        <div class="form-info">
+                            <label for="name">Name : </label>
+                            <input type="text" name="name" required>
+                        </div>
+
+                        <div class="form-info">
+                            <label for="Email">Email : </label>
+                            <input type="email" name="email">
+                        </div>
+
+                        <div class="form-info">
+                            <lebel for="Message">Massage : </lebel><br>
+                            <textarea cols="100" rows="3"></textarea>
+                        </div>
+
+                        <div class="form-btn">
+                            <input type="submit" value="Send">
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="mailto:lamiapayel9783@gmail.com">📧 Email</a>
+                        <a href="https://github.com/lamiatanhapayel " target="_blank">🐙 GitHub</a>
+                        <a href="https://linkedin.com/in/lamia-tanha-payel-129581377 " target="_blank">
+                        💼 LinkedIn</a>
+                    </div>
+                </form>
+                
+            </div>
+            
+        <!--Footer Section-->
+            <footer>
+                <div class="foot-design">
+                    <div>
+                        <p>Designed by Payel</p>
+                    </div>
+
+                    <div>
+                        copyright &copy 2025
+                    </div>
+                </div>
+            </footer>
+    
+        </section>
+    </body>
+</html>
