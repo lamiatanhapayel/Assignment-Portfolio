@@ -1,2 +1,9 @@
-This is my portfolio. This website has designed by using HTML and CSS. I made 3 file and created my portfolio.
-This website contain 3 file like index.html,skills.html,contact.html.
+## Introduction
+This is my **personal portfolio website** designed by using **HTML and CSS**. 
+It shows my introduction,skills and contact page with social link.
+
+## Technology
+**HTML** - Structure of the website.
+**CSS** - Styling of the website.
+
+
